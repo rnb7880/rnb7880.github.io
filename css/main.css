@@ -19,6 +19,20 @@ html,body{
 	border-width: 5px;
 }
 
+.interestblock{
+	color: #000000;
+	height: 300px;
+	margin-top: 80px;
+	width: 40%;
+	background-color: #e2d4ba;
+	border-style: solid;
+	border-color: #85baa1;
+	border-width: 5px;
+	background:url('furies.jpg');
+	background-size: 150px;
+    background-repeat: no-repeat;
+}
+
 ::-webkit-scrollbar{
 	width: 12px;
 }
@@ -35,8 +49,6 @@ html,body{
 	border-width: 5px;
 	height: 400px;
 	overflow: scroll
-	
-
 }
 
 .sitemenubutton{
@@ -48,7 +60,6 @@ html,body{
 	color: #fcfffc;
 	text-align: center;
 }
-
 
 .sitemenubutton:hover {
     transform: translateY(-5px);
@@ -75,59 +86,63 @@ html,body{
 .projectmenu{
 	width: 25%;
 	padding:0px;
-	margin-top:44px;
+	margin-top: 70px;
+	margin-left: 2.5%;
 	align:left;
 }
 
-.codefucious{
-	background: url(codefucious.png);
-	background-size: 100px 100pX;
-}
-
-.jukebox{
-	background: url(juke.jpg);
-	background-size: 100px 100pX;
-}
-
-.tbal{
-	background: url(tbal.jpg);
-	background-size: 100px 100pX;
-}
-
-.money{
-	background: url(library.png);
-	background-size: 100px 100pX;
+.pic1{
+	background: url("codefucious.png");
+	background-size: 150px 150px;
 }
 
 
-.codefucious,.jukebox,.tbal,.money{
-	width: 100px;
-	height: 100px;
+.pic2{
+	background: url("juke.jpg");
+	background-size: 150px 150px;
+}
+
+.up{
+	background: url(up-arrow.png);
+	background-size: 150px 50px;
+}
+
+.down{
+	background: url(down-arrow.png);
+	background-size: 150px 50px;
+}
+
+.up,.down{
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin: 2.5%;
+	margin-left: 10%;
+	margin-top: 10%;
+} 
+
+.pic1,.pic2{
+	width: 150px;
+	height: 150px;
 	background-color:#000000;
 	display: block;
-	margin: 5%;
-	margin-left: 10%;
+	margin: 2.5%;
 	margin-top: 10%;
 	border-style: solid;
 	border-color: #85baa1;
 	border-width: 5px;
+	list-style-type: none;
 }
-.codefucious:hover,.jukebox:hover,.tbal:hover,.money:hover{
+.pic2:hover,.pic1:hover,.pic1:active,.pic2:active{
 	border-color: #ff7066;
 	transform: translateX(5px);
 }
 .projectdes{
 	color: #000000;
-	height: 435px;
-	margin-left: 20%;
-	margin-top: 45px;
-	overflow-y: scroll;
+	margin-left: 200px;
+	margin-top: 80px;
+	width: 70%
 }
-
-.codefucious:active{
-	myfunction()
-}
-
 
 
 a {
