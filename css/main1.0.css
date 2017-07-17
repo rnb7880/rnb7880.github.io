@@ -4,17 +4,41 @@ html,body{
 }
 
 
-.colorblock{
+.colorblock {
 	color: #000000;
 	height: relative;
 	padding: 1%;
-	margin: 10%;
-	border-style: groove;
+	border-style: solid;
 	border-color: #ffffff;
-	border-width: .5%;
+	border-width: 1%;
+
 }
 
 table{
+	 margin: 10%;
+}
 
-	 margin: 5%;
+.paddingBetweenRows td
+{
+    padding:0 15px 0 15px;
+}
+
+
+.active .buttons {
+  padding: 5px 0;
+  background: #eee;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+.carouselbox button {
+  border: none;
+  display: none;
+}
+.active button {
+  display: block;
+} 
+.offscreen {
+  position: absolute;
+  left: -2000px;
 }
