@@ -1,32 +1,191 @@
 <!DOCTYPE html> 
 <html>
-
+<script src="java1.0.js"></script>
 
 <head>
 	
 	<title>Rachel Baumgarten Slide</title>
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main1.0.css">
 </head>
 
 <body>
 
-<h1 class = "header"> <a id = "name" href= "index.html"> Rachel Baumgarten</a>  </h1>
 
-<div style="position: absolute">
-<img src = "rachel.jpg" alt="Profile Picture" style = "width:200px">
+<img  src = "css/name.png" alt="Rachel Baumgarten" style = "max-width: 100%; height: auto;  float: left; padding:.3%">
+
+
+<div id="container">
+<table>
+		<td class="colorblock" style= "background-color: rgba(172, 252, 217, 0.7); width: 20%" >
+			<img  src = "rachel.jpg" alt="Profile Picture" style = "max-width: 100%; height: auto;  float: left; padding:.3%">
+    	</td>
+    	
+
+    	<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+		<td class="colorblock" style= "background-color: rgba(172, 252, 217, 0.7)" >
+			<div style = "text-align: center; font-weight: bold; ">WHO I AM </div>
+			<br/>
+			I am a student at the Rochester Institute of Technology studying Biomedical Engineering with minors in Spanish and Computer Science. I enjoy photography, rugby, bouldering and playing piano. I am part of the slam poetry group on campus and have participated in competitions for such for the last 3 years. I really enjoy traveling, and have recently been to Costa Rica, Barcelona and Dublin. I have a cat named Lucy and a big German family. I am a creative minded person who can't hold a paintbrush to save her life, and so I attempt to use that creativity in everything else I do. 
+		</td>
+
+
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+		<td class="colorblock" style= "background-color: rgba(172, 252, 217, 0.7); width: 20%">
+			INFORMATION
+			<br/><br/>
+			Email: <a href="mailto:rnb7880@gmail.com?Subject=Inquiry%20From%20Website"" target="_blank">rnb7880@rit.edu</a><br/><br/>
+			LinkedIn: <a href="https://www.linkedin.com/in/rachelbaumgarten7880" target="_blank">rachel.baumgarten7880</a><br/><br/>
+			GitHub: <a href="https://github.com/rnb7880" target="_blank">/rnb7880</a>
+		</td>
+
+</table>
+
 </div>
-<div class = "infoblock"> 
-<p>Hello! My name is Rachel Baumgarten. I am a student at the Rochester Institute of Technology pursuing my bachelors degree in Biomedical Engineering. I enjoy rugby, photography, poetry and movies. I wish to earn a master's degree in Computer Science and I study Spanish as a minor.<br/>
-<br/> I am currently seeking co-op employment beginning in January 2017 for Spring and/or Summer.<br/>
-<br/>Please feel free to read more about me and contact me!</p></div>
 
-<ul class = "sitemenu">
-	<li class = "sitemenubutton"><a href= "websiteabout.html"> About </a></li>
-	<li class = "sitemenubutton"><a href= "websiteprojects.html"> Projects </a></li>
-	<li class = "sitemenubutton"><a href= "websiteresume.html"> Resume </a></li>
-	<li class = "sitemenubutton"><a href= "websitepersonal.html"> Personal </a></li>
-	<li class = "sitemenubutton"><a href= "websitecontact.html"> Contact </a></li>
-</ul>
+<div id="container">
+<table >
+
+	<td class="colorblock" style= "background-color: rgba(239, 202, 8, 0.7); width: 20%" >
+		<img  src = "css/blank.png" style = "max-width: 100%; height: auto;  float: left; padding:.3%">
+    </td>
+
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+	<td class="colorblock" style= "background-color: rgba(239, 202, 8, 0.7)">
+
+	<div style = "text-align: center; font-weight: bold; ">MY CURRENT GOALS</div>
+	
+	<br/>
+	I am currently looking for a full-time position following my graduation in May 2018. I am looking for engaging work within the medical field, with a focus on devices and/or software. I have experience with biofeedback and biosignal analysis (ECG, EMG, EOG etc.), working in a research lab, and in R&amp;D working as a process engineer. I am dedicated to problem solving, and believe that the best solution is always worth the hard work. I am quick learner who always welcomes a new challenge, and can take direction and also work independently. To learn more about my skills and qualifications please take a look at my <a href="#resume">resume.</a>
+	</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td class="colorblock" style= "background-color: rgba(239, 202, 8, 0.7); width: 20%" >
+		<img  src = "css/blank.png" style = "max-width: 100%; height: auto;  float: left; padding:.3%">
+    </td>
+
+</table>
+</div>
+
+
+
+<div id="container">
+<table>
+
+	<td class="colorblock" style= "background-color: rgba(244, 159, 10, 0.7); width: 20%;" onClick="plusSlides(-1)">
+		<img  src = "css/left-arrow.png" alt="left arrow" style = "max-width: 100%; height: auto; display: block;   margin: auto; padding:.3%" >
+    </td>
+		
+
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+
+	<td class="colorblock" style= "background-color: rgba(244, 159, 10, 0.7); vertical-align: top;">
+
+	<div style = "text-align: center; font-weight: bold; vertical-align: top; "> PROJECTS, LABS AND LEADERSHIP </div>
+
+		<br/>
+		<div class="slideshow-container">
+			
+			<div class="mySlides" style="display: block">
+			
+			<div id = "proj1" class="text" > While working at Bausch &amp; Lomb, I developed a new manufacturing order sheet for the development lab. I learned VBA for Excel to do this, and produced a 6 page macro-enabled worksheet that the lab is currently using. Currently I am developing a software to use at my co-op that will be able to schedule the lab technicans based on the current projects in the lab. This is currently being written in VBA for Excel, but I hope to translate the logic to Java.
+			</div>
+			</div>
+
+
+			<div class="mySlides">
+			<img src="epa.jpg" style="width:100%">
+			<div id = "proj2"  class="text" > For BrickHacks, a hackathon at RIT, I worked with my brother and a friend on an android application that took information from a parking lot and would tell the user the best open space to park in. I dealt with the algorithms to find the most efficient open parking space. 
+			</div>
+			</div>
+
+
+			<div class="mySlides">
+			<img src="dynamics.png" style="width:100%">
+			<div id = "proj3"  class="text" > I participated in a workshop called the Dynamics of Excitable Systems in January 2017. We studied the electrical system of the heart including how to model it mathematically. We explored chaos and the disruption of electrical flow. We also dissected a sheep's heart to learn anatomy. You can see our work <a href="https://www.youtube.com/watch?v=bQnFzTT7Ioc">here.</a>
+			</div>
+			</div>
+
+			<div class="mySlides">
+			<div id = "proj4"  class="text" > I used MATLAB and self-taught Max/MSP to analyze ECG data to detect Atrial Fibrillation. I collected signals from Physionet and simulated signal. I completed an IRB process and tested the program on participants. The work was presented Undergraduate Research Symposium at RIT.
+			</div>
+			</div>
+
+			<div class="mySlides">
+			<div id = "proj5"  class="text" >Current Vice President and Former Treasurer of Mental Graffiti, the Slam Poetry club at RIT. As an executive board we host competitions and open mics every three weeks throughout the year leading up to CUPSI each spring. Last year I was also a member of the CUPSI team and we placed 17th out of 72 teams.
+			</div>
+			</div>
+
+			<div class="mySlides">
+			<img src="rugby1.0.jpg" style="width:100%">
+			<div id = "proj6"  class="text" >Former Vice President and Treasurer of the Women's Rugby Football Club. We have games every Saturday in the Fall and host the Prom Dress Rugby tournament each Spring. Currently I am taking a step back from the executive board, but I am still a dedicated member of the team.
+			</div>
+			</div>
+
+			<div class="mySlides">
+			<img src="photohouse.jpg" style="width:100%">
+			<div id = "proj7"  class="text" >Former Vice President of Photo House, a Special Interest housing option for RIT students in the form of a dorm floor. This was my community throughout my first two years of school and continues to be home to me long after I left. Being on the executive board for this floor was a wonderful opportunity to welcome in new students and help them transition to college.
+			</div>
+			</div>
+
+			<div class="mySlides">
+			<div id = "proj8"  class="text" >For my Biomedical Signals Analysis Lab class, I helped lead the EOG (eye movement) section of signals lab. We researched this kind of signal and its usage, and developed analytical software and a protocol for other students.
+			</div>
+			</div>
+
+
+
+		</div>
+			<br/><br/>
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			  <span class="dot" onclick="currentSlide(4)"></span>
+			  <span class="dot" onclick="currentSlide(5)"></span>  
+			  <span class="dot" onclick="currentSlide(6)"></span>  
+			  <span class="dot" onclick="currentSlide(7)"></span>  
+			  <span class="dot" onclick="currentSlide(8)"></span>    
+			</div>
+	</td>
+
+
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+
+	<td class="colorblock" style= "background-color: rgba(244, 159, 10, 0.7); width: 20%" onClick="plusSlides(1)" >
+		<img  src = "css/right-arrow.png" alt="right-arrow" style = "max-width: 100%; height: auto; display: block;  margin: auto; padding:.3%" >
+    </td>
+
+</table></div>
+
+
+<div id="container">
+<table>
+
+
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+	<td id="resume" class="colorblock" style= "background-color: rgba(240, 135, 10, 0.7); width:100%">
+	<div style = "text-align: center; font-weight: bold; vertical-align: top; "> RESUME </div>
+		<object  style = "height:600px; width: 100%" data="General_Resume.pdf"> RESUME LOADING</object>
+
+		<a href= "https://www.sharelatex.com/project/5792bdbb10aca360328404d4" style="color: #614b7f " target="_blank" >Written with ShareLatex</a>
+	</td>
+
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+</table>
+</div>
+
+
+
+
 
 
 </body>
